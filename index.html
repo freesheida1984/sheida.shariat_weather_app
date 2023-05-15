@@ -45,6 +45,7 @@
         <div class="col-6">
             <div class="clearfix">
             <img src="https://openweathermap.org/img/wn/10d@2x.png"
+            class = "weather-icon"
             id = "icon"
             alt = "clear"
             width="50px" alt="clear"/>        
@@ -55,7 +56,7 @@
         <div class="col-6">
             <ul>
                 <li>
-                    Precipitation: 0%
+                    Pressure: <span id ="pressure"></span>
                 </li>
                 <li>
                     Humidity: <span id = "humidity"></span><span>%</span>
@@ -65,21 +66,8 @@
                 </li>
             </ul>
         </div>        
-    </div> 
-       <div class = "weather-forecast">
-            <div calss = "row">
-            <div class = "col-2"><div class = "weather-forecast-date">Thu</div> 
-            <img src="https://clipartmag.com/images/windy-weather-clipart-30.png"
-            alt = "icon"
-            width = 40
-            />                        
-        </div>
-        <div class = "weather-forecast-temp">    
-        <span class = "weather-forecast-temp-max">18</span>
-        <span class = "weather-forecast-temp-min">12</span>            
-        </div>                
-    </div>  
-    </div>
+    </div>      
+    <div class = "weather-forecast" id="forecast"></div>        
     </div>    
     <small>
         This project was coded by Sheida Shariat and is

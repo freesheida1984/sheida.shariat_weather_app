@@ -27,14 +27,14 @@ h1{
     margin-inline-end: 0px;
     margin-bottom: 0;
 }
+
 .weather-app-wrapper{
     max-width: 800px;
     margin: 60px auto;
     
 }
-.weather-app{
-    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+.weather-app{  
+    background: radial-gradient(506px at 50.6% 16.5%, rgb(239, 252, 250) 5.5%, rgb(154, 192, 206) 100.2%);
     max-width: 800px;    
     margin-bottom: 0;    
     padding: 30px;
@@ -91,15 +91,30 @@ h1{
 }
 .weather-forecast-date{
     font-size: 16px;
-    margin-left: 2px;
-    opacity: 0.7;   
+    margin-left: 7px;
+    opacity: 0.7; 
+    margin-bottom: 8px;      
 }
 .weather-forecast-temp{
     font-size: 13px;
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 4px;
     
 }
 .weather-forecast-temp-min{
     opacity: 0.5;    
 }
+.weather-icon{
+    display: block;
+    margin: 0;
+}
+.col-forecast{
+    text-align: center;
+    padding: 10px;
+    
+}
+.col-forecast:hover{    
+    background: white;    
+    border-radius: 25px;
+}
+
