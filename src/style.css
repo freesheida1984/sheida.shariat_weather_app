@@ -1,4 +1,5 @@
-body{    
+body{
+    position: relative;    
     font-family:Roboto,helvetica neue,helvetica,arial,sans-serif;
     font-size: 13px;
     line-height: 1.308em;    
@@ -62,7 +63,8 @@ h1{
     top: -34px;
 }
 .btn-search{
-    color: white;            
+    color: white; 
+    position: relative;           
     border: none; 
     background: rgb(93, 201, 190);
     text-align: center; 
@@ -72,6 +74,7 @@ h1{
 }  
 .search-button{
     text-align: center; 
+    position: relative;
     padding-left: 85px;   
     padding-right: 85px;
     margin-bottom: 5px;
