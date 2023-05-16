@@ -9,13 +9,13 @@ function formatDate(timetamp) {
         minutes = `0${minutes}`;
     }
     let days = [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thurday",
+        "Friday",
+        "Saturday"
     ];
     let day = days[date.getDay()];
     return `${day} ${hours}:${minutes}`;       
@@ -41,7 +41,7 @@ function displayForecast(response){
     let forecastHtml = `<div class = "row">`;    
     forecast.forEach(function(forecastDay,index)
     {
-        if (index<6){
+        if (index < 6){
     forecastHtml = forecastHtml +
        `<div class = "col-2 col-forecast"><div class = "weather-forecast-date">${formatDay(forecastDay.time)}</div> 
             <img src=${forecastDay.condition.icon_url} id="icon-image"
